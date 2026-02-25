@@ -37,12 +37,14 @@ h1 {
 
 /* Header */
 header {
+  height: 80vh;
   background-color: #1f2937;
   color: #f9faf8;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 50px;
+  flex-shrink: 0;
 }
 
 .header-top {
@@ -104,4 +106,48 @@ p.header-text-others {
   color: #f9faf8;
   border: unset;
   border-radius: 8px;
+}
+
+/* Style of Information Section */
+.section-img {
+  height: 60vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+.div-img {
+  display: flex;
+  gap: 50px;
+}
+
+.information-card {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 150px;
+}
+
+.container-img {
+  width: 150px;
+  height: 150px;
+  border: 3px solid #2882f6;
+  border-radius: 10%;
+  object-fit: cover;
+  object-position: center;
+}
+
+sub {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(79, 79, 79);
+  text-decoration: none;
+  text-align: center;
+  margin-top: 5px;
 }
