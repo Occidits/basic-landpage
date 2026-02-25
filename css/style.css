@@ -151,3 +151,25 @@ sub {
   text-align: center;
   margin-top: 5px;
 }
+
+/* Motivation Paragraph Section */
+.section-paragraph {
+  background-color: #e5e7eb;
+  height: 60vh;
+}
+
+.position-paragraph {
+  padding: 5% 20%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.p-motivation {
+  font-style: italic;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1f2937;
+  text-align: center;
+}
