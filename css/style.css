@@ -102,7 +102,7 @@ p.header-text-others {
   height: 30px;
   width: 100px;
   appearance: none;
-  background-color: #2882f6;
+  background-color: #3882f6;
   color: #f9faf8;
   border: unset;
   border-radius: 8px;
@@ -137,7 +137,7 @@ h2 {
 .container-img {
   width: 150px;
   height: 150px;
-  border: 3px solid #2882f6;
+  border: 3px solid #3882f6;
   border-radius: 10%;
   object-fit: cover;
   object-position: center;
@@ -172,13 +172,58 @@ sub {
   font-size: 36px;
   font-weight: 300;
   color: #1f2937;
-  text-align: center;
+  text-align: left;
 }
 
-.author {
+.speller {
+  color: #1f2937;
   font-style: normal;
-  font-size: 20px;
+  font-size: 26px;
   font-weight: 600;
   text-align: right;
   align-self: end;
+}
+
+/* Call to Action Section */
+.call-to-action {
+  min-height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.call-to-action-container {
+  color: aliceblue;
+  width: 75%;
+  background-color: #3882f6;
+  padding: 30px 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.call-to-action-div {
+  margin: 10px;
+}
+
+.call-to-action-h3 {
+  margin: 0;
+  font-size: 25px;
+}
+
+.call-to-action-p {
+  margin: 0;
+}
+
+.call-to-action-button {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  padding: 5px 20px;
+  color: aliceblue;
+  font-size: 18px;
+  font-weight: 600;
+  background: none;
+  border: 2px solid aliceblue;
+  border-radius: 5px;
 }
