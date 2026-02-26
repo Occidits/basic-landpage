@@ -35,6 +35,10 @@ h1 {
   margin: 0px;
 }
 
+address {
+  font-style: normal;
+}
+
 /* Header */
 header {
   height: 80vh;
@@ -177,7 +181,6 @@ sub {
 
 .speller {
   color: #1f2937;
-  font-style: normal;
   font-size: 26px;
   font-weight: 600;
   text-align: right;
@@ -226,4 +229,19 @@ sub {
   background: none;
   border: 2px solid aliceblue;
   border-radius: 5px;
+}
+
+/* Footer */
+footer {
+  min-height: 20vh;
+  background-color: #1f2937;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.author {
+  font-size: 18px;
+  font-weight: 400;
 }
