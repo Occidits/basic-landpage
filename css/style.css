@@ -110,7 +110,7 @@ p.header-text-others {
 
 /* Style of Information Section */
 .section-img {
-  height: 60vh;
+  min-height: 60vh;
   padding: 10px;
   display: flex;
   flex-direction: column;
@@ -155,21 +155,30 @@ sub {
 /* Motivation Paragraph Section */
 .section-paragraph {
   background-color: #e5e7eb;
-  height: 60vh;
+  min-height: 50vh;
 }
 
 .position-paragraph {
   padding: 5% 20%;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
 .p-motivation {
+  margin: 5px 0px;
   font-style: italic;
   font-size: 36px;
   font-weight: 300;
   color: #1f2937;
   text-align: center;
+}
+
+.author {
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: right;
+  align-self: end;
 }
